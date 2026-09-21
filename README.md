@@ -24,6 +24,10 @@ DIVIDE(
     CALCULATE(COUNTROWS('employee_workforce_retention_5000'), 'employee_workforce_retention_5000'[Attrition] = "Yes"),
     COUNTROWS('employee_workforce_retention_5000'),
 )
+` ``` `
+
+
+
 ### 2. Overtime Turnover %
 ```dax
 Overtime Attrition % = 
@@ -32,5 +36,5 @@ DIVIDE(
     CALCULATE(COUNTROWS('employee_workforce_retention_5000'), 'employee_workforce_retention_5000'[Overtime] = "Yes"),
     0
 )
----
- 
+` ``` `
+
