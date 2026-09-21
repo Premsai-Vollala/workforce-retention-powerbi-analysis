@@ -1,0 +1,14 @@
+date_table.csv
+Date,Year,Quarter,Month,Month_Name,Month_Year,Day,Day_Name,Year_Month
+2015-01-01,2015,Q1,1,January,Jan 2015,1,Thursday,201501
+2016-01-01,2016,Q1,1,January,Jan 2016,1,Friday,201601
+2017-01-01,2017,Q1,1,January,Jan 2017,1,Sunday,201701
+2018-01-01,2018,Q1,1,January,Jan 2018,1,Monday,201801
+2019-01-01,2019,Q1,1,January,Jan 2019,1,Tuesday,201901
+2020-01-01,2020,Q1,1,January,Jan 2020,1,Wednesday,202001
+2021-01-01,2021,Q1,1,January,Jan 2021,1,Friday,202101
+2022-01-01,2022,Q1,1,January,Jan 2022,1,Saturday,202201
+2023-01-01,2023,Q1,1,January,Jan 2023,1,Sunday,202301
+2024-01-01,2024,Q1,1,January,Jan 2024,1,Monday,202401
+2025-01-01,2025,Q1,1,January,Jan 2025,1,Wednesday,202501
+2026-01-01,2026,Q1,1,January,Jan 2026,1,Thursday,202601
