@@ -23,10 +23,10 @@ Attrition Rate =
 DIVIDE(
     CALCULATE(COUNTROWS('employee_workforce_retention_5000'), 'employee_workforce_retention_5000'[Attrition] = "Yes"),
     COUNTROWS('employee_workforce_retention_5000'),
-    0
 )
-2. Overtime Turnover %
-Code snippet
+
+### 2. Overtime Turnover %
+```dax
 Overtime Attrition % = 
 DIVIDE(
     CALCULATE(COUNTROWS('employee_workforce_retention_5000'), 'employee_workforce_retention_5000'[Attrition] = "Yes", 'employee_workforce_retention_5000'[Overtime] = "Yes"),
@@ -49,7 +49,4 @@ Plaintext
 ├── date_table.csv                          # Date dimension table for time-intelligence DAX
 ├── dashboard_overview.png                  # Executive report preview
 └── README.md                               # Project documentation
-
-4. Click the green **Commit changes...** button at the top right $\rightarrow$ confirm **Commit changes**.
-
-Every formula under **Key DAX Measures** will now render in its own formatted code card with syntax highlighting a
+ 
