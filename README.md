@@ -17,24 +17,22 @@ This project analyzes enterprise workforce turnover patterns across 5,000 employ
 
 ## 📐 Key DAX Measures
 
-### 1. Attrition Rate
-```dax
-Attrition Rate = 
-DIVIDE(
-    CALCULATE(COUNTROWS('employee_workforce_retention_5000'), 'employee_workforce_retention_5000'[Attrition] = "Yes"),
-    COUNTROWS('employee_workforce_retention_5000'),
-)
-` ``` `
-
-
-
-### 2. Overtime Turnover %
-```dax
-Overtime Attrition % = 
-DIVIDE(
-    CALCULATE(COUNTROWS('employee_workforce_retention_5000'), 'employee_workforce_retention_5000'[Attrition] = "Yes", 'employee_workforce_retention_5000'[Overtime] = "Yes"),
-    CALCULATE(COUNTROWS('employee_workforce_retention_5000'), 'employee_workforce_retention_5000'[Overtime] = "Yes"),
-    0
-)
-` ``` `
+`### 1. Attrition Rate`
+** ```` ```dax ````
+** `Attrition Rate = `
+** `DIVIDE(`
+** `    CALCULATE(COUNTROWS('employee_workforce_retention_5000'), 'employee_workforce_retention_5000'[Attrition] = "Yes"),`
+** `    COUNTROWS('employee_workforce_retention_5000'),`
+** `    0`
+** `)`
+** ```` ``` ````  *(3 backticks with zero spaces to close Attrition Rate)*
+** *(empty line)*
+** `### 2. Overtime Turnover %`
+** ```` ```dax ````
+** `Overtime Attrition % = `
+:** `DIVIDE(`
+** `    CALCULATE(COUNTROWS('employee_workforce_retention_5000'), 'employee_workforce_retention_5000'[Attrition] = "Yes", 'employee_workforce_retention_5000'[Overtime] = "Yes"),`
+** `    CALCULATE(COUNTROWS('employee_workforce_retention_5000'), 'employee_workforce_retention_5000'[Overtime] = "Yes"),`
+** `    0` ** `)`
+** ```` ``` ````  *(3 backticks with zero spaces to close Overtime)*
 
