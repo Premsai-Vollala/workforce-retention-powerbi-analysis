@@ -1,4 +1,4 @@
-# **Enterprise Workforce Demographics & Retention Analytics**
+# **HR Attrition & Retention Analysis**
 
 ## 📌 Executive Dashboard Overview
 ![Workforce Retention Dashboard](dashboard_overview.png)
